@@ -1,0 +1,169 @@
+
+        h1{
+            color:#ff0000;
+        }
+        .header{
+            padding-top:3em;
+        }
+        #bannerWrapper{
+            padding-top:3em;
+        }
+        #banner{
+            height:30vh;
+            border-radius: 1em;
+            overflow:hidden;
+            display:flex;
+            flex-direction: row;
+            align-items:center;
+        }
+        #hero{
+            text-align:center;
+        }
+        .carouselWrapper{
+            height:300px;
+            width:auto;
+            padding:1em;
+            overflow:hidden;
+        }
+        .carouselName{
+            margin-left:16px;
+            margin-top:1em;
+        }
+        .carouselList ons-card{
+            width:160px;
+            height:300px;
+        }
+        .carouselList img{
+            width:100px;
+            height:auto;
+            position:relative;
+            left:0.8em;
+        }
+        .carouselList h3{
+            text-transform: capitalize;
+            text-align: center;
+        }
+        .carouselList p{
+            text-align:center;
+            line-height: 1.2em;
+            margin:0;
+        }
+        .carouselbtn{
+            position:relative;
+            left:82%;
+            top:5px;
+            height:30px;
+            width:30px;
+        }
+        #refreshBtn{
+            position:relative;
+            top:10px;
+            left:15px;
+        }
+        #details{
+            display:flex;
+            flex-direction:row;
+            justify-content: space-around;
+            text-align: center;
+            padding-bottom:1em;
+        }
+        .wrapper{
+            background: rgb(204,0,0);
+            background: linear-gradient(66deg, rgba(204,0,0,1) 17%, rgba(255,0,0,1) 50%, rgba(255,222,0,1) 100%);
+            padding-bottom:4em;
+        }
+        #listWrapper{
+            padding-top:3em;
+        }
+        .pokeimg{
+            width:100%;
+            height:50vh;
+            text-align: center;
+            padding-top:2em;
+        }
+        #pokeimg{
+            padding-top:1em;
+
+        }
+        .name{
+            text-align: center;
+            color:#ff0000;
+        }
+        #stats{
+            display:grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-column-gap:0.5em;
+            grid-row-gap: 0.5em;
+        }
+        #pokeName, #statTitle, #type1, #type2{
+            text-transform: capitalize;
+        }
+        #pokeName{
+            margin:0.2em 0;
+        }
+
+
+
+/* ==== Tips Page ==== */
+
+
+.swipe-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+.swipe-space{
+  /* background-color: linear-gradient(66deg, rgba(204,0,0,0.5) 17%, rgba(255,0,0,0.5) 50%, rgba(255,222,0,1) 100%); */
+  /* background-image: url("../img/pattern.png" ); */
+   background-size: cover;
+    text-align: center;
+    margin:  10px;
+    padding:25px 20px 25px 20px;
+    height: 17vh;
+    background-color: #fff;
+      /* background: linear-gradient(0deg,  rgba(255,0,0,1) 0%, rgba(255,222,0,1) 100%); */
+
+    font-size: 1.5em;
+    border-radius: 20px;
+
+
+    /* text-transform: uppercase; */
+
+}
+
+.list-item__thumbnail{
+margin-top: 20px;
+}
+
+.wrap{
+  background: linear-gradient(180deg, rgba(204,0,0,1) 17%, rgba(255,0,0,1) 70%, rgba(255,222,0,1) 130%);
+  height:100%;
+  overflow: hidden;
+
+}
+
+.topic{
+
+  text-align:center;
+  padding: 40px 20px 0 20px;
+  color: white;
+/* background-color: blue; */
+}
+
+.tipbanner{
+  height:27vh;
+  border-radius: 1em;
+  overflow:hidden;
+  display:flex;
+  flex-direction: row;
+  padding-top:1em;
+
+}
+
+#about{
+  padding-top:3em;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "cordova-week4-example-template",
+  "version": "1.0.0",
+  "description": "An example template for MDIA 4295 Week 4 lab.",
+  "repository": "",     
+  "bugs": "",
+  "main": "index.js",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova:template"
+  ],
+  "author": "C Galloway",
+  "license": "Apache-2.0"
+}
